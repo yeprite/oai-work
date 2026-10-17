@@ -17,6 +17,17 @@
       <button id="friends-button" type="button">hello my friends</button>
     </div>
     <p id="welcome-message" class="message" role="status" aria-live="polite"></p>
+    <section class="calculator" aria-labelledby="calculator-title">
+      <h2 id="calculator-title">Add two numbers</h2>
+      <form id="total-form">
+        <label for="first-number">First number</label>
+        <input id="first-number" name="first-number" type="number" step="any" placeholder="e.g. 12.5" required>
+        <label for="second-number">Second number</label>
+        <input id="second-number" name="second-number" type="number" step="any" placeholder="e.g. 7.5" required>
+        <button type="submit">Give me total</button>
+      </form>
+      <p id="total-result" class="message" role="status" aria-live="polite"></p>
+    </section>
   </main>
 </body>
 </html>
