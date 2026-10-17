@@ -2,6 +2,7 @@
 
 A responsive HTML, CSS, and JavaScript web app with no external dependencies.
 Click **Click Me** to display **Welcome to my first app!**.
+Click **hello my friends** to display the same greeting in the message area.
 
 ## Run
 
